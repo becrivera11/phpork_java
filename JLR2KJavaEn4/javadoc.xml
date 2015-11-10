@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="lib/jna-3.5.1.jar;
+        	C:\Program Files\Java\jre1.8.0_45\lib\plugin.jar;
+        	C:\Program Files\Java\jre1.8.0_45\lib\deploy.jar;
+        	C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;
+        	C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;
+        	C:\Users\marm\Documents\eclipse-jee-luna-SR2-win32\eclipse\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\management-agent.jar;C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Users\marm\Documents\eclipse-jee-luna-SR2-win32\eclipse\plugins\org.junit_4.10.0.v4_10_0_v20120426-0900\junit.jar;C:\Program Files\Java\jre1.8.0_45\lib\javaws.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" source="1.6" sourcefiles="src/com/jlrfid/service/GetReadData.java,src/com/jlrfid/service/BeginLoopReadThread.java,src/com/jlrfid/service/AntStruct.java,src/com/jlrfid/service/BeginOnceReadThread.java,src/com/jlrfid/service/RFIDException.java,src/com/jlrfid/service/MainHandler.java,src/com/jlrfid/service/UHFOperate.java" sourcepath="test;src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
